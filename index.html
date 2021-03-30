@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articles Posts</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a id="name">ACAC</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+    </header>
+    <div>
+        <form id='form'>
+            <label id="label1">Author name</label>
+            <input type='text' name='authorName' required>
+            <br>
+            <br>
+
+            <label id="label2">Article title</label>
+            <input type='text' name='article' required>
+            <br>
+            <br>
+
+            <label id="label3">Subject</label>
+            <select name="subject" id="subject">
+                <option value="news ">News </option>
+                <option value="feature ">Feature </option>
+                <option value="narrative">Narrative</option>
+                <option value="expository">Expository</option>
+              </select>
+            <br>
+            <br>
+
+            <label id="label4">Content</label>
+            <br>
+            <input type='text' id='Content' required>
+            <br>
+            <br>
+
+            <label>day:</label>
+            <input type='number' id="day" required>
+
+            <label>month:</label>
+            <input type='number' id='month' required>
+
+            <label>Year:</label>
+            <input type='number' id='year' required>
+<br>
+<br>
+            <input type='submit' id="submit" value='submit'>
+
+
+        </form>
+
+        <div id="div"></div>
+        
+        <!-- <section id="authorInfo">
+            <h2> Artificial Intelligence basics</h2>
+            <img src="/img/asac_ltuc.jpg" alt="asac" >
+            <h2>Author:</h2>
+            <h2>Date:</h2>
+            <h2 id="contentbox"></h2>
+        </section>-->
+    </div>
+
+    <script src="/Js/app.js"></script>
+</body>
+</html>
