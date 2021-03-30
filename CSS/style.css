@@ -60,24 +60,24 @@ form label{
     padding-right: 100px;
 }
 #Content{
-    width: 300px;
+    width: 340px;
     padding-bottom: 150px;
 }
 #day{
     margin-left: 10px;
     margin-right: 20px;
-    width: 20px;
+    width: 30px;
     height: 15px;
 }
 #month{
     margin-left: 10px;
     margin-right: 20px;
-    width: 20px;
+    width: 30px;
     height: 15px;
 }
 #year{
     margin-left: 10px;
-    width: 20px;
+    width: 50px;
     height: 15px;
 }
 #subject{
